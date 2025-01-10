@@ -6,13 +6,13 @@ const Hero = () => {
     items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
         <img src={logo} alt="sums_logo" className='w-28 object-contain'/>
-        <button
+        {/* <button
           type='button'
           onClick={() => window.open('https://github.com/ErickRandria/')}
           className='black_btn'
         >
           Github
-        </button>
+        </button> */}
       </nav>
       <h1 className='head_text'>
         Summarize Articles with <br className='max-md:hidden'/>

@@ -69,10 +69,7 @@ function Demo() {
             type='submit'
             className='submit_btn'
           >
-            <img 
-            src="src/components/images/submit.svg" 
-            alt="submit_btn"
-            />
+            <p>↵</p>
           </button>
         </form>
         {/* Browse URL History */}
